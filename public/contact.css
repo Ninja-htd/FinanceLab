@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+header h2 a{
+    text-decoration: none;
+    margin-left: 5px;
+    color:rgb(5, 86, 237);
+}
+header h2 a:hover{
+    color:rgb(5, 86, 237);
+}
+#secteur{
+    position: relative;
+    left: 23%;
+    top: 25px;
+    width: 680px;
+    border-radius: 5px;
+    box-shadow: 0 13px 25px rgb(0,0,0,.6);
+}
+#secteur .reseaux {
+    height: 65vh;
+    width: 180px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(5, 128, 228);
+} 
+.reseaux h4{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 0;
+}
+.reseaux a img{
+    background: #fff; 
+    border-radius: 10px;
+    margin-top: 0;
+    box-shadow: 0 8px 18px rgb(0,0,0,.6);
+}
+.reseaux h5{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.img1 , .img2{
+    padding: 2px;
+}
+#secteur .form{
+    position: absolute;
+    top: 0;
+    left: 190px;
+    height: 330px;
+    width: 470px;
+}
+#secteur .form input[type='email']{
+ outline: none;
+ /* border: 1px solid #333; */
+    margin-left: 5px;
+    width: 98%;
+    padding: 5px;
+    border-radius: 5px;
+}
+#secteur .form textarea{
+    height: 178px;
+    margin-left: 5px;
+    outline: none;
+    width: 100%;
+ border-radius: 5px;
+}
+.form input[type='submit']{
+    background: rgb(5, 128, 228);
+    color: #fff;
+    border: none;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.form input[type='submit']:hover{
+    background: blue;
+}
+.form label{
+    margin-left: 5px;
+}
+/* footer{
+    padding: 5px;
+    background: linear-gradient(rgb(5, 128, 228),rgb(60, 101, 197));
+    width: auto;
+}
+footer p{
+   color: #fff;
+   text-align: center;
+   margin-top: 10px;
+} */
